@@ -10,21 +10,12 @@ body {
     background-attachment: fixed;
 }
 
-a:link {
+a:link, a:visited {
     text-decoration: none; 
     color: #0000AA;
 }
 
-a:visited {
-    text-decoration: none;
-    color: #0000AA;
-}
-
-a:hover { 
-    color: #0000EE;
-}
-
-a:focus { 
+a:hover, input:focus { 
     color: #0000EE;
 }
 
@@ -70,11 +61,11 @@ header p {
     margin: 0;
 }
 
-.general p{
+.general {
     padding: 1em;
     }
 
-.menu p{
+.menu {
     padding: 1em;
     background-color: rgb(207,205,140);
     opacity: 0.5;
@@ -91,7 +82,7 @@ dd {
     margin-bottom: 1em;
 }
 
-.about p {    
+.about {    
     padding: 1em;
 }
 
