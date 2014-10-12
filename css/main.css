@@ -2,54 +2,103 @@
 @import url(https://fonts.googleapis.com/css?family=Lato:300,400);
 
 body {
-    font-family: Lato, ‘Helvetica Neue’, Helvetica, sans-serif;
+    font-family: 'Lato', ‘Helvetica Neue’, 'Helvetica', 'sans-serif';
     font-size: 18px;
     font-weight: 300;
-
     background-image: url('../img/background.jpg');
     background-size: cover;
     background-attachment: fixed;
-    background-color: #cccccc;
 }
 
 a:link {
     text-decoration: none; 
-    background-color: #0000AA;
+    color: #0000AA;
 }
 
 a:visited {
     text-decoration: none;
-    background-color: #0000AA;
+    color: #0000AA;
 }
 
 a:hover { 
-    background-color: #0000EE;
+    color: #0000EE;
 }
 
-input:focus { 
-    background-color: #0000EE;
+a:focus { 
+    color: #0000EE;
 }
 
 
 h1, h2, h3 {
-    font-family: 'Raleway', ‘Helvetica Neue’, Helvetica, sans-serif;
+    font-family: 'Raleway', ‘Helvetica Neue’, 'Helvetica', 'sans-serif';
     font-weight: 300;
     color: #FFFFFF;
 }
 h1 {
     font-size: 300%;
-    margin: initial;
+    margin: 0;
 }
 h2 {
     font-size: 150%;
     color: #505050;
-    margin: initial;
+    margin: 0;
 }
 h3 {
     font-size: 125%;
     color: #505050;
 }
 
-p {
-    margin-left: 2cm;
+.container {
+    margin-left: 30%;
+    margin-right: 20px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-image: url(../img/ricepaper_v3.png);
+    opacity: 0.9;
+}
+
+header {
+    padding: 1em;
+    background-color: #FA5A0F;
+    border-top: 5px solid #EA4A00;
+    color: #FFFFFF
+}
+
+header p {
+    font-size: 120%;
+    color: #EEEEEE;
+    margin: 0;
+}
+
+.general p{
+    padding: 1em;
+    }
+
+.menu p{
+    padding: 1em;
+    background-color: rgb(207,205,140);
+    opacity: 0.5;
+}
+
+dt{    
+    font-weight: 400;
+}
+
+dd {
+    font-size: 80%;
+    font-style: italic;
+    margin-left: 1em;
+    margin-bottom: 1em;
+}
+
+.about p {    
+    padding: 1em;
+}
+
+footer {
+    padding: 1em;
+    background-color: #FC892F;
+    border-top: 5px solid #EC791F;
+    font-size: 80%;
+    text-align: right;
 }
