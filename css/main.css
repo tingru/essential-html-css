@@ -23,20 +23,19 @@ a:hover, input:focus {
 h1, h2, h3 {
     font-family: 'Raleway', ‘Helvetica Neue’, 'Helvetica', 'sans-serif';
     font-weight: 300;
-    color: #FFFFFF;
 }
 h1 {
     font-size: 300%;
     margin: 0;
 }
 h2 {
-    font-size: 150%;
     color: #505050;
+    font-size: 150%;
     margin: 0;
 }
 h3 {
-    font-size: 125%;
     color: #505050;
+    font-size: 125%;
 }
 
 .container {
@@ -51,7 +50,7 @@ h3 {
 header {
     padding: 1em;
     background-color: #FA5A0F;
-    border-top: 5px solid #EA4A00;
+    border-bottom: 5px solid #EA4A00;
     color: #FFFFFF
 }
 
@@ -82,7 +81,7 @@ dd {
     margin-bottom: 1em;
 }
 
-.about {    
+.about {
     padding: 1em;
 }
 
